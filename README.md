@@ -21,6 +21,13 @@
 |------|------|----------|
 | macOS | Intel (x64) | [Windsurf-Tool-2.0.0.zip](https://github.com/crispvibe/Windsurf-Tool/releases/) |
 | macOS | Apple Silicon (arm64) | [Windsurf-Tool-2.0.0-arm64.zip](https://github.com/crispvibe/Windsurf-Tool/releases/) |
+
+Mac如果打开报错
+# 安装后执行这个命令
+sudo xattr -rd com.apple.quarantine /Applications/Windsurf-Tool.app
+# 如果应用在其他位置，替换路径
+sudo xattr -rd com.apple.quarantine /path/to/Windsurf-Tool.app
+
 | Windows | x64 | [Windsurf-Tool-2.0.0-Portable.exe](https://github.com/crispvibe/Windsurf-Tool/releases/)
 
 [功能特性](#功能特性) • [快速开始](#快速开始) • [使用指南](#使用指南) • [打包说明](#打包说明) • [工作原理](#工作原理) • [Windows适配](#windows适配)
