@@ -1,4 +1,4 @@
-# Windsurf-Tool 1.0
+# Windsurf-Tool 2.0
 
 <div align="center">
 
